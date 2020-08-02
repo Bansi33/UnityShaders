@@ -8,14 +8,14 @@ shader in usage on fish and hammerhead shark models using either vertex colors o
 
 ![Fish shader example](ExampleVideos/FishShaderExample.gif)
 
-## Wind indicator
+## Wind indicator Shader
 Example of vertex position modification shader used to implement wind indicator. Shader animates wind indicator rotation based on wind speed, having it lowered when 
 there is little or no wind and having it horizontal and waving at full wind speed. Wind speed is float parameter which can be easilly controlled through the script.
 Additionally, shader has a max wind speed value which will restrict all wind speeds higher than max to this value.
 
 ![Wind indicator example](ExampleVideos/WindIndicatorExample.gif)
 
-## 2D Interactive Water
+## 2D Interactive Water Shader
 Example of animating 2D water surface to simulate waves based on precalculated waves motions. Waves motions are precalculated using physics simulation of spring joints and saved
 to separate textures for up/down wave animations. Shader uses these textures to visualize waves on water impact in realtime without needed computations. Waves can have 
 different amplitude and radiuses. One water block is currently restricted to maximum of 4 simultaneous waves for ease of implementation (each wave stored in one channel of
